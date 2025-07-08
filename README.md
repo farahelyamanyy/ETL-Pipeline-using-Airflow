@@ -28,13 +28,13 @@ This project highlights the use of Airflow’s classic operators and demonstrate
 
 ## 📁 Project Structure
 
-├── user_processing.py # Main Airflow DAG script
-
-├── README.md # Project documentation
-
-└── .gitignore # Git ignore rules for temp/runtime files
-
-└── /tmp/processed_user.csv # Generated output file (runtime)
+```
+ETL-Pipeline-with-Airflow/
+├── user_processing.py            # Main script that that builds and schedules the data pipeline DAG
+└── README.md                     # Project documentation
+├── .gitignore                    # Git ignore rules for temp/runtime files
+├── /tmp/processed_user.csv       # Generated output file (runtime)
+```
 
 ---
 
