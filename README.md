@@ -1,4 +1,4 @@
-# ETL-Pipeline-with-Airflow
+# ETL-Pipeline-using-Airflow
  ## 📌 Overview
 
 This repository contains a project-based ETL pipeline built using Apache Airflow (pre-Airflow 3 version), designed to reflect a real-world workflow. The pipeline extracts user data from a public API, transforms it into a structured format using pandas, and loads it into a PostgreSQL database.
@@ -29,7 +29,7 @@ This project highlights the use of Airflow’s classic operators and demonstrate
 ## 📁 Project Structure
 
 ```
-ETL-Pipeline-with-Airflow/
+ETL-Pipeline-using-Airflow/
 ├── user_processing.py            # Main script that that builds and schedules the data pipeline DAG
 └── README.md                     # Project documentation
 ├── .gitignore                    # Git ignore rules for temp/runtime files
