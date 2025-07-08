@@ -30,7 +30,9 @@ This project highlights the use of Airflow’s classic operators and demonstrate
 
 .
 ├── user_processing.py # Main DAG file
+
 └── /tmp/processed_user.csv # Generated output file (runtime)
+
 └── README.md                # Project documentation
 
 ---
