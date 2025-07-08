@@ -28,12 +28,10 @@ This project highlights the use of Airflow’s classic operators and demonstrate
 
 ## 📁 Project Structure
 
-.
-├── user_processing.py # Main DAG file
-
+├── user_processing.py # Main Airflow DAG script
+├── README.md # Project documentation
+└── .gitignore # Git ignore rules for temp/runtime files
 └── /tmp/processed_user.csv # Generated output file (runtime)
-
-└── README.md                # Project documentation
 
 ---
 
